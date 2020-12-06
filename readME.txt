@@ -7,6 +7,7 @@ This is a Django/Python Project
 
 4. For the last question, I included an additional html page with some basic text fields to fill out for the form. I didnt worry too much about the drop down to increment the time every 15 minutes because thats a front end task, however, I put in an IF statement check for that using the modulus operator. The did the necessary checks to ensure the remaining instructions per the project were met as well (i.e., no more than 3 appoiments per doctor at a particular time).
 
+**Slightly challenging to build without a front end however this was a ton of fun!
 
 Installations have been listed below:
 
