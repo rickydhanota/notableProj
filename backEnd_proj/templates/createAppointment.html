@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/newAppointment/" method="POST">
+        {% csrf_token %}
+        <p>Patient First Name</p>
+        <input type="text" name="patient_firstName">
+        <p>Patient Last Name</p>
+        <input type="text" name="patient_lastName">
+        <p>Patients Preferred Appointment Date</p>
+        <input type="datetime-local" name = "appointmentDate">
+
+        <p>Patient Type</p>
+        <input type="text" name = "kind" placeholder="New Patient or Follow-up">
+
+        <p>Which Doctor ID</p>
+        <input type="integer" name = "doctor">
+
+        <button>Submit Appointment</button>
+
+    </form>
+
+</body>
+</html>
